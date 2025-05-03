@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load dataset
-df = pd.read_csv("data/raw/laptop_price.csv")
+df = pd.read_csv("data/raw/laptop_price.csv")  
 
 # Create price-based categories
 df['Price_Class'] = pd.cut(df['Price (Euro)'],
